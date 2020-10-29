@@ -1,0 +1,38 @@
+{
+    "manifest_version": 2,
+    "name": "Skip Ad Key Binder",
+    "version": "1.0",
+    "description": "Binds the media key on your keyboard to the skip ad button on YouTube videos",
+    "author": "Wesley Branton",
+
+    "developer": {
+        "name": "Wesley Branton",
+        "url": "http://addons.wesleybranton.com"
+    },
+
+    "icons": {
+        "32": "icons/icon-32.png",
+        "48": "icons/icon-48.png",
+        "64": "icons/icon-64.png",
+        "96": "icons/icon-96.png",
+        "128": "icons/icon-128.png"
+    },
+
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "skipadkeybinder@computerwhiz",
+            "strict_min_version": "71.0"
+        }
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["*://*.youtube.com/*"],
+            "js": ["scripts/script.js"]
+        }
+    ],
+
+    "permissions": [
+        "*://*.youtube.com/*"
+    ]
+}
