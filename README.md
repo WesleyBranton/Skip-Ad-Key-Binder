@@ -11,3 +11,6 @@ If you want to make changes to this extension, you are welcome to do so. All fil
 To develop and test the extension, you need to open the "about:debugging" page in Firefox and select "Load Temporary Add-on". Then you can select any file within the "firefox" folder of this repository.
 
 Further documentation about developing Firefox extensions can be found [here](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension).
+
+## Release Notes
+Release notes can be found on [this GitHub repository](https://github.com/WesleyBranton/Skip-Ad-Key-Binder/releases) or [the Firefox add-ons listing](https://addons.mozilla.org/firefox/addon/skip-ad-key-binder/versions/).
