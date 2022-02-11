@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "Skip Ad Key Binder",
+    "name": "__MSG_extensionName__",
     "version": "1.0",
-    "description": "Binds the media key on your keyboard to the skip ad button on YouTube videos",
+    "description": "__MSG_extensionDescription__",
     "author": "Wesley Branton",
 
     "developer": {
