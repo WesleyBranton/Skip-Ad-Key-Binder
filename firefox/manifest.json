@@ -4,6 +4,7 @@
     "version": "1.0",
     "description": "__MSG_extensionDescription__",
     "author": "Wesley Branton",
+    "default_locale": "en",
 
     "developer": {
         "name": "Wesley Branton",
@@ -31,6 +32,10 @@
             "js": ["scripts/script.js"]
         }
     ],
+
+    "background": {
+        "scripts": ["background.js"]
+    },
 
     "permissions": [
         "*://*.youtube.com/*"
