@@ -26,16 +26,26 @@ function nextTrack() {
 
     const next = document.getElementsByClassName('ytp-next-button')[0];
 
-    if (skip && skip.parentNode.style.display != 'none') skip.click();
-    else if(next) next.click();
+    if (skip) {
+        if (skip.offsetParent != null) {
+            skip.click();
+        }
+    } else if (next) {
+        next.click();
+    }
 }
 
 /**
  * Handle previous track button
  */
 function previousTrack() {
-    const prev = document.getElementsByClassName('ytp-prev-button')[0];
-    if (prev && prev.style.display != 'none') prev.click();
+    const previous = document.getElementsByClassName('ytp-prev-button')[0];
+
+    if (previous) {
+        if (previous.offsetParent != null) {
+            previous.click();
+        }
+    }
 }
 
 connectListener();
