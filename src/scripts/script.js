@@ -19,11 +19,7 @@ function connectListener() {
  * Handle next track button
  */
 function nextTrack() {
-    let skip = document.getElementsByClassName('ytp-ad-skip-button')[0];
-    if (!skip) {
-        skip = document.getElementsByClassName('ytp-ad-skip-button-modern')[0];
-    }
-
+    const skip = document.getElementsByClassName('ytp-skip-ad-button')[0];
     const next = document.getElementsByClassName('ytp-next-button')[0];
 
     if (skip) {
